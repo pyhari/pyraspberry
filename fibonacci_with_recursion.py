@@ -10,7 +10,7 @@ def fib_recursion(n):
 
 
 start = time.time()
-input_length=30
+input_length=50
 print("Result is", fib_recursion(input_length))
 end = time.time()
 print("Elapsed time",end - start)        
