@@ -1,19 +1,19 @@
 import time
-
-
-# Fibonacci series with recursion
-
-
+#Fibonacci series with recursion
 def fib_recursion(n):
-    if n < 2:
-        return 1
+    if(n<2):
+       return(1)
     else:
-        fib = fib_recursion(n - 1) + fib_recursion(n - 2)
-        return fib
+        fib= fib_recursion(n-1) + fib_recursion(n-2)
+        return(fib)
+    
 
 
 start = time.time()
-input_length = 20
+input_length=30
 print("Result is", fib_recursion(input_length))
 end = time.time()
-print("Elapsed time", end - start)
+print("Elapsed time",end - start)        
+        
+ 
+       
